@@ -35,7 +35,7 @@ saveButtonFrame = ctk.CTkFrame(leftFrame)
 saveButtonFrame.grid(row=2, column=0, sticky="e", padx=5, pady=5)
 
 #right frame
-rightFrame= ctk.CTkFrame(app, border_width=4, border_color="brown")
+rightFrame= ctk.CTkFrame(app, border_width=2, border_color="brown")
 rightFrame.grid(row=1, column=1, sticky="nsew", padx=5, pady=5)
 rightFrame.grid_rowconfigure(0, weight=1)
 rightFrame.grid_rowconfigure(1, weight=1)
@@ -44,7 +44,6 @@ rightFrame.grid_columnconfigure(0, weight=1)
 rightFrame.grid_columnconfigure(1, weight=1)
 newOrderLabel = ctk.CTkLabel(rightFrame, text= "New Order", text_color='black', font= ("Helvetica",30))
 newOrderLabel.grid(row=0, column=0, sticky="nw")
-
 
 
 #frame colouring
