@@ -1,0 +1,22 @@
+Acknowledgements- 
+Student: Angela P.
+
+AI tools used:
+-ChatGPT (chat.openai.com)
+suggested:
+'def clear_content():
+    for widget in content_frame.winfo_children():
+        widget.destroy()' 
+        to clear the content to run smoothly and limit crashing.
+-helped with a confusing indentation error.
+-suggested line of code to centre popup for addint ingredients 
+    Center the popup
+    popup.transient(app)
+    popup.grab_set()
+
+
+Non-AI Sources:
+-Sister: Marianne. (uni student)
+inserted this line of code: for i, item in enumerate(inventory):
+and helped with the function of deadline orders.
+-Also helped me with formating the "Inventory Tracker"
